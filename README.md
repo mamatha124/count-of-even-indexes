@@ -24,3 +24,10 @@ for i in range(len(s)):
   if i%2==0:
     y=y+s[i]
 print(x+y)
+
+# Approach-5
+s=input()
+x=s[::2]
+y=s[1::2]
+print(x+y)
+
